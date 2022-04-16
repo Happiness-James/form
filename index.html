@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8596da2aa8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box2">
+            <h3>dribble</h3>
+            <h2>Discover the world's<br>top Designer & <br>Creatives</h2>
+            <img class="banner" src="images/dribble.png" alt="dribble" >
+            <br><br>
+            <h5>Art by Happiness James</h5>
+        </div>
+
+        <div class="box1">
+            <h2>Already a Member? <a href="/signup.html">Sign up</a>
+            </h2>
+
+            <form>
+                <h4>Sign up with Google</h4>
+
+                <button class="button"><i class="fa-brands fa-google"></i> Sign up with Google</button>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i><br> 
+                <div class="line-wrapper"> <div class="line"></div> or <div  class="line"></div>
+            </div>
+                <!-- ------------------or-------------------------- -->
+                <br>
+                <div class="names">
+                    <span>
+                        <label class="full">Full name:</label><br>
+                        <input class="fullname" id="fname" name="fname" required><br>
+                    </span>
+                    <span class="username">
+                    <label >Username:</label><br>
+                    <input class="username" id="user" name="user" required><br>
+                    </span>
+                </div>
+
+                <label>Email Address:</label><br>
+                <input class="email" type="email" id="email" name="email" required><br>
+                <label>Password</label><br>
+                <input class="text" type="password" id="password" name="password" required><br>
+                <div class="checkbox">
+                   <input type="checkbox" id="checkbox" name="create" value=" ">
+                    <label class="create">Creating an account with us you're okay with our <a href="#">Terms of services, Privacy Policy </a> our default <a href="#">Notification Settings.</a> </label>    
+                </div><br>
+                <button class="btn">Create Account</button>
+                <h5>This site is protected by reCAPTURE and Google <a href="#">Privacy Policy </a>and <a href="#">Terms of Services </a>apply</h5>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

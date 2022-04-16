@@ -1,0 +1,187 @@
+
+
+.box1 {
+    width: 60%;
+    background: rgb(250, 242, 242);
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box2 {
+    width: 40%;
+    background: rgb(238, 188, 96);
+    position: relative;
+    padding: 0 50px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+h3 {
+    background: rgb(238, 188, 96);
+    text-decoration: aliceblue;
+    margin-left: 30px;
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+}
+
+h2 {
+    background: rgb(238, 188, 96);
+    margin-left: 30px;
+    font-size: xx-large;
+    color: rgb(29, 2, 2);
+}
+
+img {
+    margin-left: 10px;
+}
+
+.box1 form {
+    background: rgb(250, 242, 242);
+    margin-top: 10%;
+    padding: 10px 70px;
+    font-size: large;
+}
+
+.box1 p {
+    text-align: right;
+}
+
+h5 {
+
+    margin-top: 8px;
+
+}
+
+.btn {
+    background-color: rgb(163, 82, 95);
+    padding: 10px 15px;
+    color: rgb(248, 245, 245);
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgb(47, 47, 218);
+    color: rgb(245, 241, 241);
+    padding: 10px 15px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+
+
+.email {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+.address {
+    position: relative;
+    width: 100%;
+}
+
+.password {
+    position: relative;
+}
+
+.text {
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 70%;
+    justify-content: center;
+    padding: 7vh 20px;
+    border-radius: 10px;
+}
+
+.checkbox {
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.checkbox>input {
+    width: 10%;
+}
+
+.checkbox>label {
+    width: 90%;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+body {
+
+font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right, rgb(175, 133, 53), rgb(238, 182, 238));
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+input {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+label {
+    padding: 15px 0;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+.names>span {
+    margin-right: 10px;
+}
+.username {
+    margin-right: 0px!important;
+}
+
+.box1 h2 {
+    background: rgb(250, 242, 242);
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+}
+
+.line {
+    height: 1px;
+    background-color: #000;
+    width: 100%;
+}
+
+.line-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
