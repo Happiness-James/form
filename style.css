@@ -111,14 +111,15 @@ h5 {
     font-size: 15px;
     text-align: left;
 
+   
 }
 
 .checkbox>input {
-    width: 10%;
+    width: 3%;
 }
 
 .checkbox>label {
-    width: 90%;
+    width: 97%;
 }
 
 .banner {
